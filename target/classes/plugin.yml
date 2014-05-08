@@ -1,0 +1,20 @@
+name: toair
+version: 0.0.1
+description: Adds the command /toair
+
+author: zoomy500
+
+main: com.zoomy500.toair.Plugin
+database: false
+
+commands:
+    toair:
+        description: Set any block to air
+        aliases:
+        permission: toair.setblock
+        usage: *Poof*
+
+permissions:
+    toair.setblock:
+        description: set any block to air. useful for clearing corrupted blocks
+        default: op
